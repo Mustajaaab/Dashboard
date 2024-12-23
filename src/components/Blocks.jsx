@@ -7,7 +7,7 @@ function Blocks() {
     return (
         <>
         <div className='w-[25%]'>
-                    <div className='border-[2px] border-[#DEDEDE] px-4 py-6'>
+                    <div className='border-[2px] border-b-0 border-[#DEDEDE] px-4 py-6'>
                         <h1 className='font-sans font-bold text-xl'>Blocks inventory</h1>
                         <p className='text-[#616161] text-sm mt-2'>Drag, drop max 5 blocks per design.</p>
                         <div className='flex items-center gap-[14px] mt-[16px]'>

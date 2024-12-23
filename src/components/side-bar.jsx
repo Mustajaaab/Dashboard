@@ -9,7 +9,8 @@ import Marketing from '../assets/images/marketing.png'
 import Discounts from '../assets/images/discounts.png'
 import Builder from '../assets/images/builder.png'
 import Mail from '../assets/images/mail.png'
-
+import Side from '../assets/images/side.png'
+import Side2 from '../assets/images/side2.png'
 function Sidebar(){
     return(
         <>
@@ -59,11 +60,11 @@ function Sidebar(){
 
             <p className='text-xs font-semibold text-[#616161] mt-7 font-sans'>Sales Channels</p>
             <div className='flex justify-between items-center'>
-                <div className='flex gap-3 mt-3'>
+                <div className='flex gap-3 mt-3 items-center'>
                     <img src={Builder} alt="" className='w-4 h-4'/>
                     <h1 className='text-[13px] font-semibold font-sans cursor-pointer'>Our App Builder</h1>
                 </div>
-                <p className='cursor-pointer'>⮝</p>
+                <img src={Side2} alt="" className='w-[15px] h-[9px]'/>
             </div>
             <div className='px-7'>
                 <h2 className='text-[#616161] font-sans text-xs mt-4 hover:font-bold ease-in-out duration-200 cursor-pointer'>Themes</h2>
@@ -76,9 +77,9 @@ function Sidebar(){
                 <h2 className='text-[#616161] font-sans text-xs mt-4 hover:font-bold ease-in-out duration-200 cursor-pointer'>Analytics</h2>
                 <h2 className='text-[#616161] font-sans text-xs mt-4 hover:font-bold ease-in-out duration-200 cursor-pointer'>Settings</h2>
             </div>
-            <div className='flex justify-between items-center mt-5'>
-                <p className='text-[#616161] font-sans text-xs font-bold mt-4 cursor-pointer'>Apps</p>
-                <p className='text-[#616161] font-sans text-sm font-bold mt-4 cursor-pointer'>⮞</p>
+            <div className='flex justify-between items-center mt-9'>
+                <p className='text-[#616161] font-sans text-xs font-bold  cursor-pointer'>Apps</p>
+                <img src={Side} alt="" className='w-[9px] h-[15px]'/>
             </div>
             <div className='flex gap-2 items-center mt-3'>
                 <img src={Mail} alt="" className='w-4 h-4'/>

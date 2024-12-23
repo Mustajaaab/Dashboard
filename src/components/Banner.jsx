@@ -52,7 +52,7 @@ function Banner() {
         <h1 className="font-sans font-semibold text-base text-[#303030]">Image</h1>
         <div className="h-[138px] border-[2px] border-[#8A8A8A] border-dotted rounded-xl mt-4">
           <div className="flex justify-center mt-10">
-            <button className="hover:border-[#303030] hover:border-[2px] text-[#616161] font-sans py-2 px-2 rounded-xl mx-auto text-xs shadow-inner ease-in-out duration-200">
+            <button className="hover:border-[#303030] hover:border-[2px] border-[1px] border-[#a8a8a8] text-[#616161] font-sans py-2 px-3 rounded-xl mx-auto text-xs shadow-inner ease-in-out duration-200">
               Add Image
             </button>
           </div>
